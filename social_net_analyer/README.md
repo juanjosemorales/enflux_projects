@@ -10,7 +10,7 @@
 - ``go into the directory: social_net_analyzer``
 - ``install dependencies: pip3 install -r requirements.txt. Alternatively, run pip3 install pandas``
 - ``Go into directory sn_analyzer``
-- ``python3 analyzer.py -file_name 'MyFile.csv'
+- ``python3 analyzer.py -file_name 'MyFile.csv'``
 
 ##Examples:
 - Get Help: ``python3 analyzer.py -h``
