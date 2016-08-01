@@ -1,13 +1,12 @@
 #Array Difference Calculator
 
-## Description From the Test Question: This program that will take 2 arrays of integers, "current" and "target", and produce 2 arrays representing an additions list and a
-   deletions list such that applying the additions and deletions to the "current" array will yield the "target" array. For example, given the following
-
+Description From the Test Question: This program that will take 2 arrays of integers, "current" and "target", and produce 2 arrays representing an additions list and a
+deletions list such that applying the additions and deletions to the "current" array will yield the "target" array. For example, given the following
 inputs:
 
-``current: [1, 3, 5, 6, 8, 9]``
+``-current 1 3 5 6 8 9``
 
-``target: [1, 2, 5, 7, 9]``
+``-target 1 2 5 7 9``
 
 The outputs would be:
 
