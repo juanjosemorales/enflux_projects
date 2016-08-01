@@ -48,8 +48,8 @@ class Analyzer(object):
             aggregates = copy_ss.groupby(by=[copy_ss['original_post']])['number'].sum()
             return aggregates.to_dict()
         except:
-            raise Exception("Unable to aggregate posts. Make sure you call the read data method first and"
-                            "provide the appropriate csv with columns id:int,rID:int,followers:int")
+            raise Exception("Unable to aggregate posts. Make sure you provide the "
+                            "appropriate csv with columns id:int,rID:int,followers:int")
 
 
 def main():
