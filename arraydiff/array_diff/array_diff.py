@@ -56,13 +56,15 @@ def main():
     parser.add_argument('-current', type=int, nargs='+', help='the current list in the following format int, int, int ...', required=True)
     parser.add_argument('-target', type=int, nargs='+', help='the target list in the following format int, int, int ...  ', required=True)
     parser.add_argument('-assume_sets', type=int, help='If >= 1, then it will treat both lists as sets and '
-                                                        'assume every element in current and target is unique. \n'
-                                                       'If < 1, then it will treat both lists as python lists')
+                                                        'assume every element in current and target is unique. '
+                                                       '\nIf < 1, then it will treat both lists as python lists')
     args = parser.parse_args()
     current = sorted(args.current)
     target = sorted(args.target)
     assume_set = args.assume_sets
-    if assume_set is True:
+    if assume_set is None:
+        assume_set = 0
+    if assume_set >= 1:
         diffs = calculate_difference_set(current, target)
     else:
         diffs = calculate_difference_list(current, target)
