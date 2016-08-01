@@ -26,6 +26,7 @@ So that the following is true:
    ``-current [OR target] int int int ...``
   There is a third optional argument -assume_sets that takes in an integer. If assume_sets >= 1 then the program will treat -current and -target as sets.
   Otherwise, -current and -target will be treated as python lists. 
+ - To run, see samples below
 
 ##Examples:
 - Get Help: ``python3 array_diff.py -h``

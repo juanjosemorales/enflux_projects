@@ -13,6 +13,7 @@
 -  Alternatively, run: 
    ``pip3 install pandas``
 - Go into directory: sn_analyzer
+- To run execute the following. Substitute MyFile.csv for your csv. See more samples below.
 - ``python3 analyzer.py -file_name 'MyFile.csv'``
 
 ##Examples:
