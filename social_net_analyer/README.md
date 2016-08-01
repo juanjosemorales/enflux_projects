@@ -5,7 +5,7 @@
 
 
 ##How To Run:
-- This project runs on Python 3 and makes use of Pandas
+- This project runs on Python 3 and makes use of pandas
 -  Download to desired directory and unzip if necessary
 -  Go into the directory: social_net_analyzer
 -  Install dependencies: 

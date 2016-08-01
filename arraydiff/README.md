@@ -19,12 +19,12 @@ So that the following is true:
 ``current([1, 3, 5, 6, 8, 9]) + additions([2, 7]) - deletions([3, 6, 8]) = target([1, 2, 5, 7, 9])``
 
 ##How To Run:
-- This project runs on Python 3, so there is no need to install any additional libraries
+- This project runs on Python 3 and there is no need to install any additional libraries
 - Download to desired directory and unzip if necessary
 - Go into the directory: arraydiff/array_diff
 - The program takes two arguments -current and -target. Each is a list of integers and should be entered in the following format:
-   ``-current|target int int int ...``
-  There is a third optional argument -assume_sets that takes in as integer. If assume_sets >= 1 then the program will treat -current and -target as sets.
+   ``-current [OR target] int int int ...``
+  There is a third optional argument -assume_sets that takes in an integer. If assume_sets >= 1 then the program will treat -current and -target as sets.
   Otherwise, -current and -target will be treated as python lists. 
 
 ##Examples:
