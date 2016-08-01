@@ -69,7 +69,7 @@ def main():
     else:
         diffs = calculate_difference_list(current, target)
     for i in diffs:
-        print('{}: {}'.format(i, diffs.get(i)))
+        print('{}: {}'.format(i, sorted(diffs.get(i))))
 
 
 if __name__ == '__main__':
