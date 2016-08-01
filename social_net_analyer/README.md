@@ -9,12 +9,13 @@
 -  Download to desired directory and unzip if necessary
 -  Go into the directory: social_net_analyzer
 -  Install dependencies: 
-  ``pip3 install -r requirements.txt.`` 
+  ``pip3 install -r requirements.txt`` 
 -  Alternatively, run: 
    ``pip3 install pandas``
 - Go into directory: sn_analyzer
-- To run execute the following. Substitute MyFile.csv for your csv. See more samples below.
-- ``python3 analyzer.py -file_name 'MyFile.csv'``
+- To run execute the following. 
+ ``python3 analyzer.py -file_name 'MyFile.csv'``
+Substitute MyFile.csv for your csv. See more samples below.
 
 ##Examples:
 - Get Help: ``python3 analyzer.py -h``
