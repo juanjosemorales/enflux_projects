@@ -31,7 +31,7 @@ So that the following is true:
 ##Examples:
 - Get Help: ``python3 array_diff.py -h``
 - Run Sample: ``python3 array_diff.py -current 1 2 3 -target 2 3 4``
-- Assume Sets Example: ``python3 array_diff.py -current 1 1 2 -target 1 2 assume_sets 1``
+- Assume Sets Example: ``python3 array_diff.py -current 1 1 2 -target 1 2 -assume_sets 1``
   For this example, the expected output is: ``additions: [], deleteions [] `` because the inputs are treated as sets.
-- Assume Sets Example: ``python3 array_diff.py -current 1 1 2 -target 1 2 assume_sets 1``
+- Assume Sets Example: ``python3 array_diff.py -current 1 1 2 -target 1 2 -assume_sets 1``
   For this example, the expected output is: ``additions: [], deleteions [1] ``
