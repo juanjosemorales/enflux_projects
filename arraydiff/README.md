@@ -21,11 +21,10 @@ So that the following is true:
 
 ##How To Run:
 - This project runs on Python 3, so there is no need to install any additional libraries
-- ``Download to desired directory and unzip``
-- ``go into arraydiff/array_diff``
-- ``The program takes two arguments -current and -target. Each is a list of integers and should be entered in the following format:
-    -current|target int int int ...``
-- ``python3 array_diff.py [-h] for usage ``
+- Download to desired directory and unzip
+- Go into arraydiff/array_diff``
+- The program takes two arguments -current and -target. Each is a list of integers and should be entered in the following format:
+   ``-current|target int int int ...``
 
 ##Examples:
 - Get Help: ``python3 array_diff.py -h``
