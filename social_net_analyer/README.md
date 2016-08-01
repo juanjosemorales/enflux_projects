@@ -6,15 +6,15 @@
 
 ##How To Run:
 - This project runs on Python 3 and makes use of Pandas
--  Download to desired directory unzip if necessary
+-  Download to desired directory and unzip if necessary
 -  Go into the directory: social_net_analyzer
 -  Install dependencies: 
   ``pip3 install -r requirements.txt.`` 
 -  Alternatively, run: 
    ``pip3 install pandas``
-- Go into directory sn_analyzer
+- Go into directory: sn_analyzer
 - ``python3 analyzer.py -file_name 'MyFile.csv'``
 
 ##Examples:
 - Get Help: ``python3 analyzer.py -h``
-- Run Sample: ``python3 analyzer.py -../test/data/data.csv``
+- Run Sample: ``python3 analyzer.py -file_name ../test/data/data.csv``

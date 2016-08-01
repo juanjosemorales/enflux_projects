@@ -53,10 +53,10 @@ class Analyzer(object):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Hello. This program summarize posts from a csv with the following '
+    parser = argparse.ArgumentParser(description='Hello. This program summarizes posts from a csv with the following '
                                                  'format <int,int,int> ')
 
-    parser.add_argument('-file_name', type=str, help='the csv file', required=True)
+    parser.add_argument('-file_name', type=str, help='the csv file to be analyzed', required=True)
     args = parser.parse_args()
     file_name = args.file_name
     try:
