@@ -24,7 +24,7 @@ class Analyzer(object):
     def get_aggregates(self):
         '''
         This method will summarize the total followers of an original post (where repostID = -1).
-        Worst Case Performance: O(n) from looping through a dataset with all original posts
+        Worst Case Performance: O(n log n) from using python's built in Timsort
         :return dict: a python dictionary in the format { original_post_id : followers }
         '''
         try:

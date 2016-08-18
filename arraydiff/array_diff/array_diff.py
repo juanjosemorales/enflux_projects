@@ -5,7 +5,7 @@ def calculate_difference_list(current=None, target=None):
     '''
     Function to calculate the array difference. This will calculate the differences in individual elements.
     The lists are not treated as mathematical sets.
-    Worst Case Performance: O(n*m) from iterating through the lengths of current and target and then through _adds + _deletes
+    Worst Case Performance: O(n**2) from the last loop with the nested <if e in list> check
     :param: current - original list
     :param: target - output list
     :returns: diffs - dictionary with two lists additions:[ ] and deletes:[ ]
